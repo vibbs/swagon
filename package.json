@@ -1,0 +1,34 @@
+{
+  "name": "swagon",
+  "version": "1.0.12",
+  "description": "This is automation package written to make the development easy for MEAN stack projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://vdoddiha@gitscm.cisco.com/scm/~vdoddiha/swagon.git"
+  },
+  "keywords": [
+    "swagger",
+    "docker",
+    "dotenv"
+  ],
+  "author": "Vaibhav Doddihal",
+  "license": "ISC",
+  "dependencies": {
+    "cli-color": "*",
+    "co": "*",
+    "co-prompt": "*",
+    "commander": "*",
+    "js-yaml": "*",
+    "lodash": "*",
+    "shelljs": "*",
+    "swagger": "*",
+    "yamljs": "*"
+  },
+  "bin": {
+    "swagon": "index.js"
+  }
+}

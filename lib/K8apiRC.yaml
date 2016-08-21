@@ -1,0 +1,27 @@
+apiVersion: v1
+kind: ReplicationController
+metadata:
+  name: 
+  labels:
+    name: 
+spec:
+  replicas: 1
+  selector:
+    name: 
+  template:
+    metadata:
+      labels:
+        name: 
+        version: v0.1
+    spec:
+      containers:
+      - name: 
+        image: 
+        imagePullPolicy: IfNotPresent
+        env:
+          - name: 
+            value: 
+        ports:
+          - containerPort: 8080
+      imagePullSecrets:
+        - name: quay-auth
